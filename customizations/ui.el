@@ -26,7 +26,17 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-bright t)
+(load-theme 'zenburn t)
+;; (load-theme 'tomorrow-night-bright t)
+;; (load-theme 'solarized t)
+
+;;(add-hook 'after-make-frame-functions
+;;         (lambda (frame)
+;;            (let ((mode (if (display-graphic-p frame) 'dark 'dark)))
+;;              (set-frame-parameter frame 'background-mode mode)
+;;              (set-terminal-parameter frame 'background-mode mode))
+;;            (enable-theme 'solarized)))
+
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 140)

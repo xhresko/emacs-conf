@@ -1,0 +1,1 @@
+(define-package "crm-custom" "20160116.1606" "Alternate `completing-read-multiple' that uses `completing-read'" '((cl-lib "0.5")) :url "https://github.com/DarwinAwardWinner/crm-custom" :keywords '("completion" "minibuffer" "multiple elements"))
